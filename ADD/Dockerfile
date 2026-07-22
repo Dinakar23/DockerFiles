@@ -1,3 +1,3 @@
 FROM nginx
 ADD sample-2.tar /tmp/
-CMD ["sleep","500"]
+CMD ["sleep","150"]
