@@ -1,3 +1,3 @@
 FROM almalinux:9
-ADD sample-2.tar .
+ADD sample-2.tar /tmp/
 CMD ["sleep","10"]
