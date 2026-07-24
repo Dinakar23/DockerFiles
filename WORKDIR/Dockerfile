@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN cd /tmp
-RUN echo"present directory ${PWD}"
+RUN echo "present directory: ${pwd}"
 CMD ["sleep","100"]
