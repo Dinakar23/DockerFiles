@@ -1,3 +1,4 @@
+ARG verison
 FROM almalinux:9
 RUN cd /tmp
 RUN mkdir /app
